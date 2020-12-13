@@ -7,9 +7,9 @@ A simple machine learning approach to predicting reddit users' political leaning
 A short script using a home-trained model to predict a reddit user's political tendencies.
 
 
-## Method:
+## Method
 
-Step 1) Data (in the form of a large number of comments) is collected using the [reddit digger](https://github.com/amirblaese/reddit_digger)  from two subreddits broadly representing the "left" and "right" political wings. These subreddits are [/r/socialism](reddit.com/r/socialism) and [/r/conservative](reddit.com/r/conservative). 
+Step 1) Data (in the form of a large number of comments) is collected using the [reddit digger](https://github.com/amirblaese/reddit_digger)  from two subreddits broadly representing the "left" and "right" political wings. These subreddits are [/r/socialism](http://reddit.com/r/socialism) and [/r/conservative](http://reddit.com/r/conservative). 
 
 Step 2) Once the .csv has been saved, it is loaded into the script and must be trimmed before being used to train the model. This includes:
 * Removing downvoted comments (not in agreement with subreddit values, aka the hivemind principle). This threshold is set to -1.
@@ -23,7 +23,7 @@ Step 4) Vectorize the text and train the model (see source for details).
 
 Step 5) Use the reddit API and its python wrapper to download a users recent comments (100 usually) and use the model to predict a leaning for each comment and finally print the mean and standard deviation of the 100 comments' predictions.
 
-## Example:
+## Example
 
 
     Enter reddit username: -----
