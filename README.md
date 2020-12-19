@@ -2,7 +2,7 @@
 
 A simple machine learning approach to predicting reddit users' political leanings.
 
-# About
+## About
 
 A short script using a home-trained model to predict a reddit user's political tendencies.
 
